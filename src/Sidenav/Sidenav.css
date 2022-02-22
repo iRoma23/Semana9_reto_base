@@ -1,0 +1,16 @@
+.Sidenav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    height: calc(70vh - 16px);
+    border: 4px solid #9BB8C2;
+}
+
+.purple {
+    background-color: #733CA4;
+}
+
+.blue {
+    background-color: #1B7DC8;
+}

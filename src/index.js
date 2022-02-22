@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Header from './Header/Header';
+import Sidenav from './Sidenav/Sidenav';
+import Footer from './Footer/Footer';
+import Main from './Main/Main';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <div className='container'>
+      <Sidenav color={'purple'} />
+      <Main />
+      <Sidenav color={'blue'} />
+    </div>
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
